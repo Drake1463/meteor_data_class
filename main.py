@@ -30,7 +30,7 @@ def definers_file():
 
         #Taking a line and splitting it by the tab's and putting it into a variable to use
         x = line.split('\t', 11)
-
+ 
         # IMPORTANT need to see if the file line has all the meteor values
         while(len(x) < 12):
             x.append('')
